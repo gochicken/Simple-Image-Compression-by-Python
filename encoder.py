@@ -11,9 +11,8 @@ import numpy as np
 import math
 
 class Encoder(object):
-    def __init__(self, image_address, compress_address, N1 = 8, N2 = 8):
-        self.image_address = image_address
-        self.compress_address = compress_address
+    def __init__(self, image_address, N1 = 8, N2 = 8):
+        self.address = image_address
         self.N1 = N1
         self.N2 = N2
 
